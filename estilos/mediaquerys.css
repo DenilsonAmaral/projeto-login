@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@media screen and (min-width:768px) and (max-width: 992px){
+
+    section#login {
+        width: 80vw;
+    }  
+
+
+section#login > aside#iamgem{
+    float: left;
+    width: 30%;
+    height: 100%;
+    height: 200px;
+}
+
+section#login > aside#formulario{
+    float: right;
+    width: 70%;
+}
+}
