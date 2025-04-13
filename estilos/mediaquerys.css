@@ -10,8 +10,10 @@
     }  
 
 
-    section#login > aside#iamgem{
+    section#login > aside#imagen{
         float: left;
+        overflow: hidden;
+
         width: 30%;
         height: 100%;
         height: 200px;
@@ -33,17 +35,17 @@
         width: 950px;
     }
 
-    section#login > aside#imagem{
-        float: left;
+    section#login > aside#imagen{
+        float: right;
         width: 50%;
         height: 100%;
 
     }
 
     section#login> aside#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
-
+   
     
 }
