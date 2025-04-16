@@ -34,7 +34,7 @@ section#login{
 
     background-color: #5f2c82;
     width: 243px;
-    height: 530px;
+    height: 570px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(0, 0, 0, 0.450);
 
@@ -44,6 +44,7 @@ section#login{
 section#login > aside#imagen{
     display: block;
     border-radius: 20px;
+    background-image: linear-gradient(top, #5f2c82, white);
     background: #5f2c82 url(../imagens/pexels-luis-gomes-166706-546819.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
@@ -74,6 +75,10 @@ form > div.campo{
     margin: 5px 0px;
 
 }
+aside > input:focus-within{
+    background-color: white;
+    
+}
 
 form > input[type=submit]{
     display: block;
@@ -91,7 +96,9 @@ form > input[type=submit]{
 
 span{
     color: white;
-    background-color: black;
+    background-color: #3b1c50;
+    border: 1px solid #5f2c82;
+    border-radius: 10px;
     font-size: 2em;
     width: 40px;
     padding: 5px;
